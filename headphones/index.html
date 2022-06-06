@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPRO Audifonos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet/less" type="text/css" href="css/styles.less"/>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.webp 1920w" 
+                        type="image/webp">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.png 1920w" 
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="600">
+                </picture>
+            </div> <!--  End de img header -->
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aliquam exercitationem accusantium omnis cum temporibus dolor vitae tempora recusandae inventore consequuntur, at corrupti sapiente laboriosam, ratione atque mollitia quasi velit!</p>
+                <p class="precio-producto">Desde <span>$299</span> </p>
+            </div>
+        </div>
+    </header>
+    
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono uno">
+                <img src="img/icono-sonido.svg" alt="imagen icono">
+                <h3>GRAN SONIDO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus explicabo aspernatur voluptates et eligendi, fugit deserunt iure corrupti molestiae ex, dolor, recusandae harum hic debitis? Atque possimus magnam ea?</p>
+            </div>
+            <div class="icono dos">
+                <img src="img/icono-sonido.svg" alt="imagen icono">
+                <h3>GRAN SONIDO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus explicabo aspernatur voluptates et eligendi, fugit deserunt iure corrupti molestiae ex, dolor, recusandae harum hic debitis? Atque possimus magnam ea?</p>
+            </div>
+            <div class="icono tres">
+                <img src="img/icono-sonido.svg" alt="imagen icono">
+                <h3>GRAN SONIDO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ducimus explicabo aspernatur voluptates et eligendi, fugit deserunt iure corrupti molestiae ex, dolor, recusandae harum hic debitis? Atque possimus magnam ea?</p>
+            </div>
+        </div>
+    </section>
+    <!--Para que cargue el less-->
+    <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
+</body>
+</html>
